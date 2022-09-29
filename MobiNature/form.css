@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  padding-top: 3%;
+}
+
+legend{
+  font-family: 'Oswald', sans-serif;
+}
+
+form{
+  background-image: url(/img/wave.svg);
+  background-repeat: no-repeat;
+}
+
+.form-group{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+label{
+  font-weight: 700;
+}
+
+#submit:hover{
+  font-weight: 800;
+  background-color: black;
+}
+
+#africa{
+  position: absolute;
+  left: 50%;
+  top: 5%;
+}
+
+.support{
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.support p{
+  color: aliceblue;
+  text-align: center;
+  line-height: 19px;
+}
+
+.support a:hover{
+  text-decoration: none;
+  color: blue;
+  font-weight: 800;
+}
+
+@media (max-width:500px){
+  .support{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+  }
+
+  .support p{
+    color: black;
+    text-align: center;
+    line-height: 19px;
+  }
+
+  #africa{
+    position: absolute;
+    left: -5%;
+    top: 45%;
+    transform: scale(.5);
+  }
+
+  .back{
+    transform: scale(.8);
+  }
+}
